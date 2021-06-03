@@ -1,13 +1,35 @@
 # Diversity on Screen
 
-Tracking diversity in the media.  From movies to television shows with the intent of delivering multiple cross-platform tools.
+### Overview
+Diversity on Screen is a website/app that will help users find, and view diverse content
 
+### Goals
+1. Ability to search for diverse content across the following categories:
+   - Race, Gender, Ethnicity, Nationality, Age
+2. View content within the site.
+3. Easy and intuitive navigation.
+
+### Categories
+   Content will be measured across the following categories.
+   - Race
+   - Gender
+   - Ethnicity
+   - Nationality
+   - Age
+
+### Qualities
+   Each diversity category will have the following qualities:
+   - Homogeneity [0-10.0] - How alike\different is the content in this sub-category.
+     - Homogeneous(0) to Heterogeneous(10.0)
+   - Progressiveness [0-10.0] - How far from the norm is the content in this sub-category
+     - Status Quo(0) to Very Progressive(10.0)
+
+#### <br>
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
-
 What things you need to install the software and how to install them
 
 Server: you'll need to setup NodeJS on GoogleAppengine.
@@ -41,6 +63,7 @@ Client: React + ES6 setup with [create-react-app](https://github.com/facebook/cr
   * API calls directed to webpack-dev-server are redirected to dev-server(above) at port :3000.
 3. Site should be live at [Localhost](http://localhost:3001/)
     
+### <br>
 ## Running the tests
 
 Explain how to run the automated tests for this system
@@ -61,11 +84,13 @@ Explain what these tests test and why
 Give an example
 ```
 
+### <br>
 ## Deployment
 
 1. Use gcloud to deploy.
     gcloud app deploy
 
+### <br>
 ## Built With
 
 * [The Movie DB](https://www.themoviedb.org)
@@ -74,24 +99,29 @@ Give an example
 * [Google AppEngine](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 * [create-react-app](https://github.com/facebook/create-react-app)
 
+### <br>
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
+### <br>
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
 
+### <br>
 ## Authors
 
 * **James Stephens II** - *Initial work* - [jstephensii](https://github.com/jstephensii)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
+### <br>
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
+#### <br>
 ## Acknowledgments
 
 * Hat tip to anyone who's code was used
